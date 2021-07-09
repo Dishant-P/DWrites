@@ -307,6 +307,7 @@ a.active {
 
 .about-img-div img {
     margin: 0 auto;
+    border: 10px solid #425BB5;
 }
 
 .about-border {
@@ -316,7 +317,8 @@ a.active {
     height: 400px;
     top: 40px;
     left: 50px;
-    z-index: 1
+    z-index: 1;
+    display: none;
 }
 
 
@@ -756,6 +758,10 @@ fieldset {
     color: #425BB5;
 }
 
+.flexbox{display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap;}
+
+/* Remove Padding */
+.padd-bottom-0{padding-bottom: 0 !important;}
 
 /* Responsive media queries
 ==================================================*/
@@ -764,6 +770,8 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+    .flexbox .about-para{order: 2; margin-top: 50px;}
+    .flexbox .about-img-div{order: 1;}
 }
 
 @media (max-width: 768px) {
