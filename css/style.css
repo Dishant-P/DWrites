@@ -759,6 +759,8 @@ fieldset {
 }
 
 .flexbox{display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap;}
+.footer-flexbox{display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;}
+.footer-text{margin-top: 20px;}
 
 /* Remove Padding */
 .padd-bottom-0{padding-bottom: 0 !important;}
